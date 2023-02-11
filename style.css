@@ -343,9 +343,9 @@
   border: 1px solid darkgray;
   margin: 20px;
 }
-* {
+/* * {
   box-sizing: content-box;
-}
+} */
 
 .about img {
   width: 100%;
