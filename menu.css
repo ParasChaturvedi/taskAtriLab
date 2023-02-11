@@ -1,0 +1,260 @@
+#navbar {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul {
+  display: flex;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+#navbar ul li {
+  margin-left: 30px;
+  text-decoration: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: rgb(89, 88, 88);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.5px;
+}
+
+#navbar .logo {
+  display: flex;
+}
+.btns {
+  float: right;
+  margin-left: 325px;
+}
+.btn {
+  width: 155px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 25px;
+  border: 1px solid darkgray;
+  background-color: white;
+  font-weight: 600;
+  font-size: medium;
+  padding: 3px;
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+}
+.btnr {
+  width: 135px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 25px;
+  background-color: rgb(255, 140, 0);
+  font-size: medium;
+  border: none;
+  font-weight: 600;
+  color: white;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.logo {
+  margin-left: 52px;
+}
+.logo img {
+  width: 65px;
+  height: 55px;
+  margin-top: 12px;
+}
+.logo span {
+  height: 45px;
+  font-family: "Playfair Display", serif;
+  padding-left: 12px;
+  letter-spacing: 1px;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#browse-menu {
+  margin-top: 100px;
+}
+
+.heading-c p {
+  text-align: center;
+}
+.heading-c h1 {
+  text-align: center;
+}
+.heading-c p {
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  font-weight: 700px;
+  color: rgb(89, 88, 88);
+}
+.heading-c h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  font-size: 2.9;
+  font-weight: 900px;
+}
+.classic-img img {
+  position: absolute;
+  width: 19%;
+  height: 294px;
+  z-index: -1;
+  border-radius: 25px;
+}
+.classic {
+  display: block;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin: 9px;
+  margin-top: 65px;
+}
+.overlap span {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  left: 53%;
+  font-size: x-large;
+  padding: 5px;
+  font-weight: 600;
+}
+.overlap {
+  padding-top: 5%;
+}
+.state {
+  padding-top: 70%;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.state span {
+  color: rgb(89, 88, 88);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.bts {
+  display: flex;
+  justify-content: center;
+}
+.bts button {
+  margin: 5px;
+}
+#order {
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.coms img {
+  width: 170px;
+  height: 65px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 9px;
+}
+.coms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 355px;
+  margin-right: 355px;
+  margin-top: 25px;
+}
+#order h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  display: block;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+#order span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: rgb(89, 88, 88);
+}
+#footer {
+  display: flex;
+  height: 70vh;
+}
+.list {
+  display: flex;
+  margin: 95px;
+}
+.left img {
+  width: 350px;
+  height: 100px;
+}
+.left {
+  display: block;
+  margin: 95px;
+  margin-left: 175px;
+}
+.left span {
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  color: gray;
+}
+.rate img {
+  width: 50px;
+  height: 50px;
+}
+.rate {
+  padding-top: 23px;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+}
+.list span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+.list ul li {
+  padding: 9px;
+  font-size: 1.1rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: gray;
+}
+
+.gram {
+  margin: 95px;
+  margin-left: 65px;
+}
+.gram h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 9px;
+}
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.stock img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 4px;
+  box-shadow: 1px 1px;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

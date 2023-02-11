@@ -1,0 +1,391 @@
+#navbar {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul {
+  display: flex;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+#navbar ul li {
+  margin-left: 30px;
+  text-decoration: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: rgb(89, 88, 88);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.5px;
+}
+
+#navbar .logo {
+  display: flex;
+}
+.btns {
+  float: right;
+  margin-left: 325px;
+}
+.btn {
+  width: 155px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 25px;
+  border: 1px solid darkgray;
+  background-color: white;
+  font-weight: 600;
+  font-size: medium;
+  padding: 3px;
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+}
+.btnr {
+  width: 135px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 25px;
+  background-color: rgb(255, 140, 0);
+  font-size: medium;
+  border: none;
+  font-weight: 600;
+  color: white;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.logo {
+  margin-left: 52px;
+}
+.logo img {
+  width: 65px;
+  height: 55px;
+  margin-top: 12px;
+}
+.logo span {
+  height: 45px;
+  font-family: "Playfair Display", serif;
+  padding-left: 12px;
+  letter-spacing: 1px;
+}
+.wow img {
+  width: 450px;
+  height: 550px;
+  border-radius: 65px;
+  margin-bottom: -75px;
+  margin-right: -25px;
+}
+.mainin {
+  display: flex;
+}
+.way {
+  margin-top: 150px;
+}
+.way h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  display: block;
+  margin-left: 289px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+}
+.way span {
+  font-family: "Playfair Display", serif;
+  display: block;
+  margin-left: 289px;
+  margin-top: 20px;
+  margin-right: 189px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+.wow {
+  margin-right: 85px;
+  margin-top: 120px;
+}
+#dol {
+  width: 70%;
+  height: 500px;
+  background-color: #ff751a;
+  z-index: -1;
+}
+.sant img {
+  width: 700px;
+  height: 400px;
+  border-radius: 65px;
+  margin-left: 225px;
+  margin-top: -95px;
+}
+.comp img {
+  border: 3px solid lightgray;
+  height: 130px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 325px;
+  margin-bottom: -255px;
+  position: relative;
+}
+
+.btnr {
+  width: 135px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 25px;
+  background-color: rgb(255, 140, 0);
+  font-size: medium;
+  border: none;
+  font-weight: 600;
+  color: white;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#view {
+  width: 100%;
+  display: flex;
+  height: 160vh;
+  padding-top: 150px;
+  background-color: #f9f2eb;
+  flex-wrap: wrap;
+}
+.found img {
+  width: 550px;
+  height: 550px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 35px;
+}
+.founder {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.founder h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+}
+.founder span {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+.founder button {
+  margin-top: 25px;
+}
+#team{
+    text-align: center;
+    padding-top: 150px;
+}
+#team h1{
+    font-size: 2.5rem;
+  font-weight: 900;
+  display: block;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+#team .spann{
+    font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgb(89, 88, 88);
+  letter-spacing: 0.5px;
+}
+.us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mem{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mem h3{
+    font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+}
+.mem span{
+    font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #ff751a;
+}
+.mem p{
+    font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  color: gray;
+  flex-wrap: wrap;
+}
+.mem img{
+    width: 100%;
+    border-radius: 25px;
+    height: 350px;
+}
+#love{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+#love h1{
+    font-size: 2.5rem;
+  font-weight: 900;
+  display: block;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+.value{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 140px;
+  justify-content: center;
+}
+.val img{
+    padding: 25px;
+    width: 25px;
+    height: 25px;
+    border: none ;
+    background-color: #feddd2;
+    border-radius: 100px;
+}
+.val h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+}
+.val span{
+    font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: rgb(89, 88, 88);
+}
+.val{
+    width: 23%;
+    margin: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#insta{
+    width: 100%;
+    height: 95vh;
+    background-color: #f9f2eb;
+  }
+  .follow{
+    padding-top: 200px;
+    padding-left: 125px;
+  }
+  .follow span{
+    font-size: 2.3rem;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    padding-top: 12px;
+  }
+  .follow button{
+    margin-left: 80%;
+    margin-top: -105px;
+    font-family: "Playfair Display", serif;
+    font-size: larger;
+  }
+  .cls img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 9px;
+    box-shadow: 1px 1px;
+  }
+  .stock img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 4px;
+    box-shadow: 1px 1px;
+  
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #footer{
+    display: flex;
+    height: 70vh;
+  }
+  .list{
+    display: flex;
+    margin: 95px;
+  }
+  .left img{
+    width: 350px;
+    height: 100px;
+  }
+  .left{
+    display: block;
+    margin: 95px;
+    margin-left: 175px;
+  
+  }
+  .left span{
+    font-size: 1.1rem;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    color: gray;
+  }
+  .rate img{
+    width: 50px;
+    height: 50px;
+  }
+  .rate{
+    padding-top: 23px;
+    text-align: left;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .list span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+  
+  }
+  .list ul li {
+    padding: 9px;
+    font-size: 1.1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    color: gray;
+  }
+  
+  .gram{
+    margin: 95px;
+    margin-left: 65px;
+  }
+  .gram h1{
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 9px;
+  }
